@@ -1,2 +1,3 @@
 - [Hasura GraphQL Engine Documentation](https://hasura.io/docs)
 - [Build Fullstack Apps with NestJS, Hasura, and GraphQL APIs](https://hasura.io/blog/build-fullstack-apps-nestjs-hasura-graphql-api/#golevelupnestjs-hasura)
+- [NestJS + Hasura Workshop](https://github.com/WonderPanda/hasura-nestjs-workshop)
