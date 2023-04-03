@@ -8,7 +8,9 @@ on:
     branches: [ "main" ]
   # pull_request:
    # branches: [ "main" ]
-
+defaults:
+  run:
+    working-directory: ./nestjs-graphQL
 jobs:
   build:
 
@@ -26,7 +28,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd nestjs-graphQL
+        cache-dependency-path: 'nestjs-graphQL/package-lock.json'
     - run: npm ci
     - run: npm run build
     - run: npm test
