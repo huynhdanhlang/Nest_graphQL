@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-      working-directory: ./nestjs-graphQL
+    - run: cd nestjs-graphQL
     - run: npm ci
     - run: npm run build
     - run: npm test
