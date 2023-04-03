@@ -17,6 +17,7 @@ import { UserService } from './user/user.service';
     }),
     PaymentModule,
     HouseModule,
+    PaymentModule,
     GraphQLModule.forRoot({
       driver: ApolloDriver,
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
