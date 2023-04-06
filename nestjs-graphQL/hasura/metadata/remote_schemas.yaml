@@ -1,5 +1,0 @@
-- name: Nestjs
-  definition:
-    url: http://host.docker.internal:3000/graphql
-    timeout_seconds: 60
-    customization: {}
