@@ -1,6 +1,10 @@
 # compiled output
 /dist
 /node_modules
+<<<<<<< HEAD
+=======
+.env
+>>>>>>> 4bc1130fbd704cf02b1dd6ea065799dc84333961
 /hasura
 /metadata
 /migrations

@@ -1,3 +1,8 @@
 - [Hasura GraphQL Engine Documentation](https://hasura.io/docs)
 - [Build Fullstack Apps with NestJS, Hasura, and GraphQL APIs](https://hasura.io/blog/build-fullstack-apps-nestjs-hasura-graphql-api/)
 - [NestJS + Hasura Workshop](https://github.com/WonderPanda/hasura-nestjs-workshop)
+- [Creating a GraphQL server with NestJS](https://dev.to/bitovi/creating-a-graphql-server-with-nestjs-3ap0)
+- [Dockerizing a NestJS API with Docker Compose](https://wanago.io/2023/01/16/api-nestjs-docker-compose/)
+- [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+- [Install Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
+- [Running hasura console via CLI in docker container](https://github.com/hasura/graphql-engine/issues/2824)
