@@ -7,7 +7,7 @@ RUN curl -L https://github.com/hasura/graphql-engine/raw/stable/cli/get.sh | bas
 WORKDIR /usr/src/hasura
 
 COPY . .
-
+RUN chown -R $USER:$USER hasura
 RUN chmod +x ./start.sh
 
 CMD "./start.sh"
