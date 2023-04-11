@@ -1,3 +1,4 @@
+#!/bin/sh
 cd /usr/src/hasura/hasura || {
     echo "Hasura folder '/usr/src/hasura/hasura' not found"
     exit 1
