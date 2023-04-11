@@ -74,7 +74,7 @@ services:
     environment:
       HASURA_GRAPHQL_DATABASE_URL: postgres://${POSTGRES_USERNAME}:${POSTGRES_PASSWORD}@postgres:${PG_PORT}/${POSTGRES_DB}
       HASURA_GRAPHQL_ADMIN_SECRET: ${MY_SECRET_ADMIN}
-      HASURA_GRAPHQL_ENDPOINT: http://localhost:8080
+      HASURA_GRAPHQL_ENDPOINT: http://graphql-engine:8080
       HASURA_RUN_CONSOLE: "true"
     volumes:
       - ./hasura:/usr/src/hasura/hasura
