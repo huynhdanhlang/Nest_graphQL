@@ -2,9 +2,6 @@
 /dist
 /node_modules
 .env
-/hasura
-/metadata
-/migrations
 # Logs
 logs
 *.log
