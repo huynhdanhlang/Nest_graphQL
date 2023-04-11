@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /usr/src/hasura/hasura || {
     echo "Hasura folder '/usr/src/hasura/hasura' not found"
     exit 1
@@ -12,7 +13,13 @@ socat TCP-LISTEN:9693,fork,reuseaddr,bind=svc_hasura_console TCP:127.0.0.1:9693 
     hasura init hasura --endpoint http://127.0.0.1:8080/ --admin-secret $HASURA_GRAPHQL_ADMIN_SECRET
     # # Apply migrations
     # hasura migrate apply --database-name=default| exit 1
-
+    if [ "$EUID" -ne 0 ]
+        then 
+            echo 'You are running with user permission'
+            echo 'chown user hasura'
+            sudo chown -R $USER:$USER hasura
+        exit
+    fi
     # # # Apply metadata changes
     # hasura metadata apply || exit 1
 
