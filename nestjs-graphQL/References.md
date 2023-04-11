@@ -6,3 +6,4 @@
 - [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 - [Install Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
 - [Running hasura console via CLI in docker container](https://github.com/hasura/graphql-engine/issues/2824)
+- [End of line problem](https://stackoverflow.com/questions/75745719/docker-image-build-error-shell-script-file-is-copied-in-the-workdir-but-it-says)
