@@ -1,9 +1,7 @@
 # compiled output
 /dist
 /node_modules
-/hasura
-/metadata
-/migrations
+.env
 # Logs
 logs
 *.log
