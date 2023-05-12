@@ -5,7 +5,7 @@ cd /usr/src/hasura/hasura || {
 }
 
 # temporal fix to workaround: https://github.com/hasura/graphql-engine/issues/2824#issuecomment-801293056
-socat TCP-LISTEN:8080,fork TCP:graphql-engine:8080 &
+socat TCP-LISTEN:8080,fork TCP:127.0.0.1:8080 &
 socat TCP-LISTEN:9695,fork,reuseaddr,bind=svc_hasura_console TCP:127.0.0.1:9695 &
 socat TCP-LISTEN:9693,fork,reuseaddr,bind=svc_hasura_console TCP:127.0.0.1:9693 &
 {
